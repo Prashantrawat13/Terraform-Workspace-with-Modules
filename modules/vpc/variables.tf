@@ -17,11 +17,20 @@ variable "VPC_CIDR_BLOCK" {}
 ## Subnet ##      || Public Subnet Variables
 ############
 
-variable "public_subnet_name" {}
+variable "public_subnet_A_name" {}
 
-variable "public_subnet_CIDR_BLOCK" {}
+variable "public_subnet_A_CIDR_BLOCK" {}
 
-variable "public_subnet_region" {}
+variable "public_subnet_A_region" {}
+
+
+
+variable "public_subnet_B_name" {}
+
+variable "public_subnet_B_CIDR_BLOCK" {}
+
+variable "public_subnet_B_region" {}
+
 
 
 #######################
@@ -33,16 +42,42 @@ variable "internet_gw_name" {}
 
 
 ############
-## Subnet ##      || Private Subnet Variables  
+## Subnet ##      || App Private Subnet Variables  
 ############
 
-variable "private_subnet_name" {}
+variable "app_private_subnet_A_name" {}
+
+variable "app_private_subnet_A_CIDR_BLOCK" {}
+
+variable "app_private_subnet_A_region" {}
 
 
-variable "private_subnet_CIDR_BLOCK" {}
+
+variable "app_private_subnet_B_name" {}
+
+variable "app_private_subnet_B_CIDR_BLOCK" {}
+
+variable "app_private_subnet_B_region" {}
 
 
-variable "private_subnet_region" {}
+
+############
+## Subnet ##      || db Subnet Variables  
+############
+
+variable "db_private_subnet_A_name" {}
+
+variable "db_private_subnet_A_CIDR_BLOCK" {}
+
+variable "db_private_subnet_A_region" {}
+
+
+
+variable "db_private_subnet_B_name" {}
+
+variable "db_private_subnet_B_CIDR_BLOCK" {}
+
+variable "db_private_subnet_B_region" {}
 
 
 
