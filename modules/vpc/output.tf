@@ -4,12 +4,12 @@ output "vpc_id" {
 }
 
 
-output "public_subnet_1_id" {
+output "public_subnet_A_id" {
   value       = aws_subnet.Public_Subnet_A.id
   description = "Public Subnet A ID to be used on other modules"
 }
 
-output "public_subnet_2_id" {
+output "public_subnet_B_id" {
   value       = aws_subnet.Public_Subnet_B.id
   description = "Public Subnet B ID to be used on other modules"
 }
