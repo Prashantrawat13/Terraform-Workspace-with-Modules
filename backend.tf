@@ -1,10 +1,10 @@
-# terraform {
-#   cloud {
+terraform {
+  cloud {
 
-#     organization = "Prashant_rawat"
+    organization = "Prashant_Rawat"
 
-#     workspaces {
-#       name = "Dev_test"
-#     }
-#   }
-# }
+    workspaces {
+      name = "Project_modules_learning"
+    }
+  }
+}
